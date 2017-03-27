@@ -1,7 +1,7 @@
 include_defs('//BUCKAROO_DEPS')
 
 prebuilt_cxx_library(
-  name = 'boost-tuple',
+  name = 'tuple',
   header_only = True,
   header_namespace = 'boost/tuple',
   exported_headers = subdir_glob([
